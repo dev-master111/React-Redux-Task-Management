@@ -1,0 +1,22 @@
+.todo-title {
+    font-size: 30px;
+    list-style-type: none;
+}
+
+.red {
+    color: #ff8888;
+}
+
+.green {
+    color: #88ff88;
+}
+
+.add-todo {
+    font-size: 20px;
+}
+
+li span {
+    width: 300px;
+    border-width: 1px;
+    border-color: #000000;
+}
