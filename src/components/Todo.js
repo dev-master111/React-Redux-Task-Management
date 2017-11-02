@@ -16,8 +16,7 @@ const Todo = ({ onClick, onRemoveClick, editable, complete, title, onClickEdit, 
       }>
       {title}
     </span>
-    <AddTodo isEditMode={true} visible={editable} text={title} todoId={_id}> </AddTodo>
-    {' '}
+    <AddTodo isEditMode={true} visible={editable} text={title} todoId={_id} />
     <span
       onClick={e => {
         e.preventDefault()
@@ -25,7 +24,6 @@ const Todo = ({ onClick, onRemoveClick, editable, complete, title, onClickEdit, 
       }}>
       <i className="fa fa-trash red"></i>
     </span>
-    {'  '}
     <span
       onClick={e => {
         e.preventDefault()

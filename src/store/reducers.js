@@ -63,7 +63,7 @@ function todos(state = [], action) {
                 editable: !todo.editable,
             })
           } else {
-            return { ...todo, editable: false }
+            return { ...todo, editable: true }
           }
         }
         return todo;

@@ -12,11 +12,15 @@
 }
 
 .add-todo {
-    font-size: 20px;
+    font-size: 21px;
 }
+
 
 li span {
     width: 300px;
     border-width: 1px;
     border-color: #000000;
+    border-style: solid;
+    text-align: left;
+    padding: 10px;
 }

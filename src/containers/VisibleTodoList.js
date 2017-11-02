@@ -18,7 +18,6 @@ const getVisibleTodos = (todos, filter) => {
 const mapDispatchToProps = dispatch => {
   return {
     onTodoClick: (id, complete) => {
-      console.log(complete)
       dispatch(updateTodo(id, null, !complete))
       dispatch(toggleTodo(id))
     },

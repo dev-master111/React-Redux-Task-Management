@@ -25,7 +25,6 @@ export function deleteTodoCall(id) {
 }
 
 export function updateTodoCall(id, title, complete) {
-  console.log(`id=${id} title=${title} complete=${complete}`)
   return axios.put('http://localhost:3000/todo/' + id, { title, complete }, config)
   .then(response => response.data)
   .catch(err => { throw err });

@@ -44,7 +44,6 @@ function* deleteTodo(action) {
 function* updateTodo(action) {
     try {
         const todo = yield call(updateTodoCall, action.id, action.title, action.complete);
-        console.log(todo);
         yield put({ type:UPDATE_TODO_SUCCESS, todo })
     } catch (error) {
         yield put({ type:UPDATE_TODO_FAILURE, error })

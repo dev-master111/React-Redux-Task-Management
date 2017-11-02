@@ -9,7 +9,12 @@ let AddTodo = ({dispatch, isEditMode, visible, text, todoId}) => {
     <div 
       style={
         {
-          display: visible ? 'inline-block' : 'none'
+          display: visible ? 'inline-block' : 'none',
+          width: !isEditMode ? 500 : 300,
+          padding: 10,
+          borderColor: '#000000',
+          borderStyle: 'solid',
+          borderWidth: !isEditMode ? 0 : 1
         }
       }>
       <form
