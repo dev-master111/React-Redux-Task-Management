@@ -1,2 +1,3 @@
 # React-Redux-Task-Management
 
+Developed with React/Redux, Morrisjs, FlotCharts, Chart.js...
