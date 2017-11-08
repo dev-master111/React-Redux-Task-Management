@@ -1,0 +1,29 @@
+{
+  "GET_CANDIES": {
+    "url": "/candies"
+  },
+  "GET_SNACKS": {
+    "url": "/snacks"
+  },
+  "GET_MARSHMALLOWS": {
+    "url": "/candies/1"
+  },
+  "GET_GELATINES": {
+    "url": "/candies/2"
+  },
+  "GET_LOLLIPOPS": {
+    "url": "/candies/3"
+  },
+  "GET_LIONS": {
+    "url": "/snacks/1"
+  },
+  "GET_BOUNTIES": {
+    "url": "/snacks/2"
+  },
+  "GET_MARS": {
+    "url": "/snacks/3"
+  },
+  "GET_PURCHASES": {
+    "url": "/purchases"
+  }
+}
