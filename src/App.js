@@ -21,7 +21,7 @@ class App extends Component {
             <NavigationItem to={"/dashboard/home"} current={current}>Home</NavigationItem>
             <NavigationItem to={"/dashboard/demo"} current={current}>Analytics</NavigationItem>
           </Navigation>
-          <Section padding={'80px 20px'}>
+          <Section padding={'80px 0px'}>
             <Page width={'1170px'}>
               {this.props.children}
             </Page>
